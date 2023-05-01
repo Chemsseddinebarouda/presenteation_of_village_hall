@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Page | Salle des Fetes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="salle-des-fetes-logo.png" alt="Salle des Fetes logo">
+      <h1>Salle des Fetes</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="decoration.html">Decoration</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form>
+      <label for="name">Name on Card</label>
+      <input type="text" id="name" name="name" required>
+      <label for="card-number">Card Number</label>
+      <input type="text" id="card-number" name="card-number" required>
+      <div class="card-info-container">
+        <div class="card-info">
+          <label for="exp-date">Expiration Date</label>
+          <input type="text" id="exp-date" name="exp-date" required>
+        </div>
+        <div class="card-info">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv" required>
+        </div>
+      </div>
+      <button type="submit">Submit Payment</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2023 Salle des Fetes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
